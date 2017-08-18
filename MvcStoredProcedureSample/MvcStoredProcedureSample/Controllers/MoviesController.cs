@@ -11,6 +11,7 @@ using System.Diagnostics;
 
 namespace MvcStoredProcedureSample.Controllers
 {
+    //MoviesDBContext
     public class MoviesController : Controller
     {
         private MovieDbContext db = new MovieDbContext();
